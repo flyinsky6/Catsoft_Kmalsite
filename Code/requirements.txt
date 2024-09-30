@@ -8,3 +8,4 @@ catboost
 scikit-learn
 streamlit_lottie
 streamlit-pages
+distutils
