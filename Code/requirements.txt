@@ -7,4 +7,4 @@ matplotlib
 catboost
 scikit-learn
 streamlit_lottie
-st_pages
+streamlit-pages
