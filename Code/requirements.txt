@@ -1,8 +1,8 @@
-numpy~=1.23.5
-pandas~=1.5.3
-streamlit~=1.21.0
-requests~=2.28.2
-pillow~=9.4.0
-matplotlib~=3.7.1
-catboost~=1.2.7
-scikit-learn~=1.2.2
+numpy
+pandas
+streamlit
+requests
+pillow
+matplotlib
+catboost
+scikit-learn
