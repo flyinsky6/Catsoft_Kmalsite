@@ -6,3 +6,4 @@ pillow
 matplotlib
 catboost
 scikit-learn
+streamlit_lottie
