@@ -154,9 +154,9 @@ st.write(
     '<h5 style="width: 100%;background-color:yellow; display: inline-block; padding: 5px;">Q<span style="color:red;">1. How to make your prediction?</span></h5>',
     unsafe_allow_html=True)
 
-image1 = Image.open("t1.png")
-image2 = Image.open("t2.png")
-image3 = Image.open("t3.png")
+image1 = Image.open("./Code/t1.png")
+image2 = Image.open("./Code/t2.png")
+image3 = Image.open("./Code/t3.png")
 
 caption = "A:"
 caption1 = ("Firstly,  you should either copy/paste or upload a file containing the protein sequences with FASTA format into the input box, shown as 1-zone and 2-zone position in the figure above. ")
