@@ -2,8 +2,6 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from st_pages import Page, show_pages, add_page_title
 import requests
-import os
-current_path = os.path.dirname(__file__)
 
 st.set_page_config(page_title='Home', page_icon=':dna:', layout="wide",
                    initial_sidebar_state='auto')
@@ -164,7 +162,7 @@ st.markdown(
 , unsafe_allow_html=True)
 
 from PIL import Image
-image = Image.open(current_path +"\protein.png")
+image = Image.open("\protein.png")
 # 指定新的宽度和高度
 new_width = 500
 new_height = 300
