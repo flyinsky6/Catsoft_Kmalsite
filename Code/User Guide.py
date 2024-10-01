@@ -204,7 +204,7 @@ st.write(
     '<h5 style="width: 100%;background-color:yellow; display: inline-block; padding: 5px;">Q<span style="color:red;">2. The detailed explanation of the page of prediction results.</span></h5>',
     unsafe_allow_html=True
 )
-image4 = Image.open("t4.png")
+image4 = Image.open("./Code/t4.png")
 
 caption4 = ('''The output part of the result contains five types of information: \n
  1. The name of the protein;
