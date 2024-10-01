@@ -8,7 +8,7 @@ st.set_page_config(page_title='Home', page_icon=':dna:', layout="wide",
 
 show_pages(
     [
-        Page("./Code/Home.py", "Home", "🏠"),
+        Page("../Code/Home.py", "Home", "🏠"),
         Page("Web Server.py", "Web Server", ":mag_right:"),
         Page("User Guide.py", "User Guide", ":question:"),
         Page("Contact.py", "Contact", ":e-mail:"),
