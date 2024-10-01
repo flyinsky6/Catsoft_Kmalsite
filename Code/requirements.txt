@@ -1,12 +1,1 @@
-python~=3.8
-numpy
-pandas
-streamlit
-requests
-pillow
-matplotlib
-catboost
-scikit-learn
-streamlit_lottie
-streamlit-pages
-distutils
+
