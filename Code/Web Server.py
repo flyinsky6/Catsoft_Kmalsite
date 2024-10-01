@@ -189,8 +189,7 @@ with st.expander('**Example** ', expanded=True):
              unsafe_allow_html=True)
     st.code(">sp|Q12345|PROTEIN_X\nGALMQDPASKTECFFIAKNEGVLRGTRKFLAWDAEALEKFIKNEGVFKGTYEVIRGWCDGRYLVFEAKENGEITRTVKVLG\n")
 
-st.markdown(
-    """
+st.markdown("""
     <style>
     .stTextArea>label{
         color: black !important;
@@ -199,20 +198,18 @@ st.markdown(
      .stTextArea textarea {
         color: black !important;
         caret-color: black; 
-        border-radius: 5px;
-        font-size: 20px;
-        box-shadow: 2px 2px 4px #c9c9c9;
-        border-left: 1px solid black; 
+        border-radius: 0.42vw;
+        font-size: 1.67vw;
+        box-shadow: 0.17vw 0.17vw 0.33vw #c9c9c9;
+        border-left: 0.08vw solid black; 
         background-color: #FFFFFF !important;
-        border: 2px solid #121549 !important;
+        border: 0.17vw solid #121549 !important;
         margin-bottom:0;
         margin: auto;
         resize: none;
     }
     </style>
-    """,
-    unsafe_allow_html=True
-)
+    """, unsafe_allow_html=True)
 
 protein_seq = st.text_area(label='Please enter the correct protein sequence in FASTA format: ', height=200,
                            key='protein-sequence')
