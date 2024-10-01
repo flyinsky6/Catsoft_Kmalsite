@@ -36,9 +36,8 @@ st.markdown(f"""
             color: #DFEEEF;
             text-align: center;
             font-weight: bold;
-            margin-top: 3.33vw;
-            margin-bottom: 4.17vw;
-            padding: 1.67vw;
+            margin-top: 2.5vw;
+            padding: 2vw;
             background-color: #121549;
             position: fixed;
             height: 15vw;
@@ -61,11 +60,11 @@ st.markdown(f"""
             background-color: #a5bdcb;
             position: fixed;
             z-index: 1;  
-            top: 18.33vw;
+            top: 17.5vw;
             left:0;
             border-radius: 0 0 0.83vw 0.83vw;
             width: 100%;
-            padding: 0.42vw;
+            padding: 0.4vw;
             border: none;
             text-align: center;
         }}
@@ -103,9 +102,9 @@ st.markdown(f"""
             display: block;
             color: #8da7cd;
             text-align: center;
-            padding: 1vw;
+            padding: 0.4vw;
             text-decoration: none;
-            font-size: 1.5vw;
+            font-size: 1.3vw;
             cursor: pointer;
         }}
         .nav-links a:hover {{
