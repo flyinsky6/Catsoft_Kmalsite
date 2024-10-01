@@ -162,7 +162,7 @@ st.markdown(
 , unsafe_allow_html=True)
 
 from PIL import Image
-image = Image.open("\protein.png")
+image = Image.open("protein.png")
 # 指定新的宽度和高度
 new_width = 500
 new_height = 300
