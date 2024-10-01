@@ -7,7 +7,6 @@ from EAAC import EAAC_Descriptor
 from EGAAC import EGAAC_Descriptor
 from sliding_slice_fasta import sliding_slice_fasta
 from sliding_slice_dssp import sliding_slice_dssp
-import io
 import base64
 import uuid
 
