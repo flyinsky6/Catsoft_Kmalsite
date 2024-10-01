@@ -7,3 +7,4 @@ matplotlib~=3.7.1
 catboost~=1.1.1
 scikit-learn~=1.2.2
 streamlit_lottie
+st_pages
