@@ -220,15 +220,15 @@ button_style = """
         .stButton>button{
             background-color: #054D69;
             color: #FFFFFF;
-            font-size: 18px;
-            border-radius: 5px;
-            padding: 10px 20px;
+            font-size: 1.5vw;
+            border-radius: 0.42vw;
+            padding: 0.83vw 1.67vw;
             cursor: pointer;
             font-weight: bold;
             box-shadow: none;
             outline: none !important;
             border:none;
-            margin-left:50%;
+            margin-left:41.67vw;
         }
 
         .stButton:hover>button{
