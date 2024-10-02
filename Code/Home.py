@@ -151,7 +151,7 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-st.markdown("""<h2 style="margin-top: 15vw;">Introduction</h2>""", unsafe_allow_html=True)
+st.markdown("""<h2 style="margin-top: 12.5vw;">Introduction</h2>""", unsafe_allow_html=True)
 
 st.markdown(
     """
