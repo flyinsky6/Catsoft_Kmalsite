@@ -19,7 +19,7 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 80%;
+            width: 58%;
             margin:0 auto;
             color: black;
         }}
@@ -147,10 +147,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 输入文本框和上传文件按钮
-st.markdown("<h2 >Tutorial(Q & A)</h2>", unsafe_allow_html=True)
+st.markdown("""<h2 style="margin-top: 13.5vw;">Tutorial(Q & A)</h2>""", unsafe_allow_html=True)
 
 st.write(
-    '<h5 style="width: 100%;background-color:yellow; display: inline-block; padding: 5px;">Q<span style="color:red;">1. How to make your prediction?</span></h5>',
+    '<h5 style="width: 100%;background-color:yellow; display: inline-block; padding: 0.42vw;">Q<span style="color:red;">1. How to make your prediction?</span></h5>',
     unsafe_allow_html=True)
 
 image1 = Image.open("./Code/t1.png")
@@ -171,24 +171,24 @@ def image_to_base64(image):
 # 创建HTML容器框并显示图片
 st.markdown(
     """
-    <div style='background-color: white; width: 100%;'>
-     <h5 style='padding: 5px 2px'>{}</h5>
-     <div style='padding: 0px 10px;margin: 0 auto; text-align: center'>
-        <div style='display: inline-block;width: 95%; padding: 5px; box-sizing: border-box;'>
-            <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
-             <p>{}</p>
+        <div style='background-color: white; width: 100%;">
+         <h5 style='padding: 0.42vw 0.17vw'>{}</h5>
+         <div style='padding: 0 0.83vw; margin: 0 auto; text-align: center'>
+            <div style='display: inline-block; width: 95%; padding: 0.42vw; box-sizing: border-box;'>
+                <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
+                 <p>{}</p>
+            </div>
+            <div style='display: inline-block; width: 95%; padding: 0.42vw; box-sizing: border-box;'>
+                <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
+                 <p>{}</p>
+            </div>
+            <div style='display: inline-block; width: 95%; padding: 0.42vw; box-sizing: border-box;'>
+                <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
+                 <p>{}</p>
+            </div>
+            <div style='clear:both;'></div>
+            </div>
         </div>
-        <div style='display: inline-block;width: 95%; padding: 5px; box-sizing: border-box;'>
-            <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
-             <p>{}</p>
-        </div>
-        <div style='display: inline-block;width: 95%; padding: 5px; box-sizing: border-box;'>
-            <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
-             <p>{}</p>
-        </div>
-        <div style='clear:both;'></div>
-        </div>
-    </div>
     """.format(
         caption,
         image_to_base64(image1),caption1,
@@ -200,7 +200,7 @@ st.markdown(
 )
 
 st.write(
-    '<h5 style="width: 100%;background-color:yellow; display: inline-block; padding: 5px;">Q<span style="color:red;">2. The detailed explanation of the page of prediction results.</span></h5>',
+    '<h5 style="width: 100%;background-color:yellow; display: inline-block; padding: 0.42vw;">Q<span style="color:red;">2. The detailed explanation of the page of prediction results.</span></h5>',
     unsafe_allow_html=True
 )
 image4 = Image.open("./Code/t4.png")
@@ -216,17 +216,17 @@ caption4 = ('''The output part of the result contains five types of information:
 
 st.markdown(
     """
-    <div style='background-color: white; width: 100%;'>
-     <h5 style='padding: 5px 2px'>{}</h5>
-     <div style='padding: 0px 10px;margin: 0 auto; text-align: center'>
-        <div style='display: inline-block;width: 95%; padding: 5px; box-sizing: border-box;'>
+    <div style='background-color: white; width: 100%;">
+     <h5 style='padding: 0.42vw 0.17vw'>{}</h5>
+     <div style='padding: 0 0.83vw; margin: 0 auto; text-align: center'>
+        <div style='display: inline-block; width: 95%; padding: 0.42vw; box-sizing: border-box;'>
             <img src='data:image/png;base64,{}' style='max-width:100%; height:auto;'>
              <p>{}</p>
         </div>
         <div style='clear:both;'></div>
         </div>
     </div>
-    """.format(
+""".format(
         caption,
         image_to_base64(image4), caption4,
 
