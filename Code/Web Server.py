@@ -26,51 +26,50 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 50%;
+            width: 80%;
             margin:0 auto;
             color: black;
         }}
         h1 {{
-            font-size: 60px;
+            font-size: 5vw;
             color: #DFEEEF;
             text-align: center;
             font-weight: bold;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            padding: 20px;
+            margin-top: 2.42vw;
+            padding: 1.6vw;
             background-color: #121549;
             position: fixed;
-            height:180px;
+            height: 15vw;
             top: 0;
             left: 0;
             width: 100%;
             z-index: 1;
         }}
         h2 {{
-        font-size: 32px;
-        margin-top: 180px;
-        margin-bottom: 10px;
-        text-align:center;
-        color: #333333;
-        font-weight: bold;
-        text-transform: uppercase;
+            font-size: 2.67vw;
+            margin-top: 15vw;
+            margin-bottom: 0.83vw;
+            text-align:center;
+            color: #333333;
+            font-weight: bold;
+            text-transform: uppercase;
         }}
-         .navbar {{
+        .navbar {{
             font-family: sans-serif;
             background-color: #a5bdcb;
             position: fixed;
             z-index: 1;  
-            top: 220px;
+            top: 17vw;
             left:0;
-            border-radius: 0 0 10px 10px;
+            border-radius: 0 0 0.83vw 0.83vw;
             width: 100%;
-            padding: 5px;
+            padding: 0.4vw;
             border: none;
             text-align: center;
         }}
         .navbar a {{
             text-decoration: none;
-            font-size: 15px;
+            font-size: 1.2vw;
             cursor: pointer;
         }}
         .navbar a:hover {{
@@ -102,9 +101,9 @@ st.markdown(f"""
             display: block;
             color: #8da7cd;
             text-align: center;
-            padding: 12px 16px;
+            padding: 0.4vw;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 1.3vw;
             cursor: pointer;
         }}
         .nav-links a:hover {{
@@ -117,26 +116,26 @@ st.markdown(f"""
             color: #303186 !important;
             text-decoration: underline;
         }}
-        h5{{
-        color:black;
-        text-align: justify;
+        h5 {{
+            color:black;
+            text-align: justify;
         }}
-        h3{{
-        color:black;
+        h3 {{
+            color:black;
         }}
         .centered-text {{
-        display: flex;
-        justify-content: center;
+            display: flex;
+            justify-content: center;
         }}
         footer {{
             position: absolute;
-            bottom: -80px;
+            bottom: -6.67vw;
             width:100%;
             background-color: black;
             color: white;
-            font-size: 14px;
+            font-size: 1.17vw;
             text-align: center;
-            line-height: 30px;
+            line-height: 2.5vw;
         }}
     </style>
 """, unsafe_allow_html=True)
@@ -155,31 +154,29 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 输入文本框和上传文件按钮
-st.markdown("<h2 >Enter Your Protein Information</h2>", unsafe_allow_html=True)
+st.markdown("""<h2 style="margin-top: 13.5vw;">Enter Your Protein Information</h2>""", unsafe_allow_html=True)
 
 st.markdown("""
     <style>
         .streamlit-expanderHeader {
             justify-content: center !important;
-            font-size: 18px !important;
+            font-size: 1.5vw !important;
             font-weight: bold !important;
             color: black !important;
             background-color: white !important;
-            border-radius: 3px !important;
-            border: 3px solid #374673 !important;
-            padding: 1px !important;
-            width:120px;
-            margin-left:75%;
-
+            border-radius: 0.25vw !important;
+            border: 0.25vw solid #374673 !important;
+            padding: 0.083vw !important;
+            width: 10vw;
+            margin-left: 62.5vw !important;
         }
         .streamlit-expanderContent {
-        border: none;
-        display: flex;
-        justify-content: center;
-    }
-
-    </style>""",
-            unsafe_allow_html=True)
+            border: none;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 st.write(
     '<h5>1.Input your protein sequence here. The sequence should be in <span style="color:red;">FASTA</span> format.</h5>',
@@ -245,7 +242,7 @@ browse_files_button = st.file_uploader("Or select a file to upload:", type=["txt
 
 st.write("-----------")
 st.write(
-    '<h5 style="margin:10px auto 0 auto;">2.Input your protein structure here. The structure should be in <span style="color:red;">DSSP</span> format.</h5>',
+    '<h5 style="margin:0.83vw auto 0 auto;">2.Input your protein structure here. The structure should be in <span style="color:red;">DSSP</span> format.</h5>',
     unsafe_allow_html=True)
 
 with st.expander('**Example** ', expanded=True):
@@ -264,7 +261,7 @@ protein_struc = st.text_area(label='Please enter the correct protein structure i
 structure_files_button = st.file_uploader(label='Or select a file to upload:', type="dssp")
 
 st.write("-----------")
-st.write('<h5 style="margin:10px auto 0 auto;">3.Console:<span style="color:red;"> Click</span> the button below to make a prediction or clear the prediction.</h5>',unsafe_allow_html=True)
+st.write('<h5 style="margin:0.83vw auto 0 auto;">3.Console:<span style="color:red;"> Click</span> the button below to make a prediction or clear the prediction.</h5>',unsafe_allow_html=True)
 # 点击按钮开始预测
 col1, col2 = st.columns(2)
 submit_button = col1.button(label='Submit', key='predict-button')
@@ -428,7 +425,7 @@ if submit_button:
                 <div style="display: flex; justify-content: flex-end;">
                     <a download="{id[0]}.csv" id="{button_id}" href="data:file/csv;base64,{b64}">
                         <button class="streamlit-button small-button primary-button" 
-                                style="padding: .375rem .75rem;margin-top:5px;font-size: 14px;background-color:#616f93;color:#fff">
+                                style="padding: .375rem .75rem;margin-top:0.42vw;font-size: 1.17vw;background-color:#616f93;color:#fff">
                             {button_label}
                         </button>
                     </a>
