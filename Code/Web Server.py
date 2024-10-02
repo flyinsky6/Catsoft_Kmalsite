@@ -26,7 +26,7 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 70%;
+            width: 75%;
             margin:0 auto;
             color: black;
         }}
@@ -167,8 +167,8 @@ st.markdown("""
             border-radius: 0.25vw !important;
             border: 0.25vw solid #374673 !important;
             padding: 0.1vw !important;
-            width: 6vw;
-            margin-left: 50vw !important;
+            width: 7vw;
+            margin-left: 59.5vw !important;
         }
         .streamlit-expanderContent {
             border: none;
