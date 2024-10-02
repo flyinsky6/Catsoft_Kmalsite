@@ -145,4 +145,4 @@ st.markdown("""
 
 st.markdown("<h2>Email</h2>", unsafe_allow_html=True)
 
-st.markdown("Feel free to contact us if you nedd any help: flyinsky6@189.cn", unsafe_allow_html=True)
+st.markdown("Feel free to contact us if you need any help: flyinsky6@189.cn", unsafe_allow_html=True)
