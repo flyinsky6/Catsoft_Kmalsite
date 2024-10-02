@@ -167,8 +167,8 @@ st.markdown("""
             border-radius: 0.25vw !important;
             border: 0.25vw solid #374673 !important;
             padding: 0.083vw !important;
-            width: 9vw;
-            margin-left: 62.5vw !important;
+            width: 10vw;
+            margin-left: 60vw !important;
         }
         .streamlit-expanderContent {
             border: none;
