@@ -26,7 +26,7 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 75%;
+            width: 70%;
             margin:0 auto;
             color: black;
         }}
