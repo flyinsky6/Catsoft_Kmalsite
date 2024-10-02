@@ -26,7 +26,7 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 78%;
+            width: 70%;
             margin:0 auto;
             color: black;
         }}
@@ -167,8 +167,8 @@ st.markdown("""
             border-radius: 0.25vw !important;
             border: 0.25vw solid #374673 !important;
             padding: 0.083vw !important;
-            width: 10vw;
-            margin-left: 60.3vw !important;
+            width: 9vw;
+            margin-left: 52.5vw !important;
         }
         .streamlit-expanderContent {
             border: none;
@@ -225,7 +225,8 @@ button_style = """
             box-shadow: none;
             outline: none !important;
             border:none;
-            margin-left:4vw;
+            margin-left:12vw;
+            margin-top:1vw;
         }
 
         .stButton:hover>button{
