@@ -36,7 +36,7 @@ st.markdown(f"""
             text-align: center;
             font-weight: bold;
             margin-top: 2.43vw;
-            padding: 1.8vw;
+            padding: 2vw;
             background-color: #121549;
             position: fixed;
             height: 15vw;
