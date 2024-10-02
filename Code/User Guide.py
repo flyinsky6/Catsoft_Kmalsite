@@ -28,7 +28,7 @@ st.markdown(f"""
             color: #DFEEEF;
             text-align: center;
             font-weight: bold;
-            margin-top: 2.42vw;
+            margin-top: 2.43vw;
             padding: 1.6vw;
             background-color: #121549;
             position: fixed;
