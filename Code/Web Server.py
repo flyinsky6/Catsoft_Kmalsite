@@ -225,7 +225,7 @@ button_style = """
             box-shadow: none;
             outline: none !important;
             border:none;
-            margin-left:41.67vw;
+            margin-left:4vw;
         }
 
         .stButton:hover>button{
