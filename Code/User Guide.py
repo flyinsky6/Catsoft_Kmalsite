@@ -19,7 +19,7 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 70%;
+            width: 80%;
             margin:0 auto;
             color: black;
         }}
