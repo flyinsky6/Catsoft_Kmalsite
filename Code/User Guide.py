@@ -19,51 +19,50 @@ st.markdown(f"""
             display: none;
         }}
         .main {{
-            width: 80%;
+            width: 70%;
             margin:0 auto;
             color: black;
         }}
         h1 {{
-            font-size: 60px;
+            font-size: 5vw;
             color: #DFEEEF;
             text-align: center;
             font-weight: bold;
-            margin-top: 40px;
-            margin-bottom: 50px;
-            padding: 20px;
+            margin-top: 2.42vw;
+            padding: 1.6vw;
             background-color: #121549;
             position: fixed;
-            height:180px;
+            height: 15vw;
             top: 0;
             left: 0;
             width: 100%;
             z-index: 1;
         }}
         h2 {{
-        font-size: 32px;
-        margin-top: 180px;
-        margin-bottom: 10px;
-        text-align:center;
-        color: #333333;
-        font-weight: bold;
-        text-transform: uppercase;
+            font-size: 2.67vw;
+            margin-top: 15vw;
+            margin-bottom: 0.83vw;
+            text-align:center;
+            color: #333333;
+            font-weight: bold;
+            text-transform: uppercase;
         }}
-         .navbar {{
+        .navbar {{
             font-family: sans-serif;
             background-color: #a5bdcb;
             position: fixed;
             z-index: 1;  
-            top: 220px;
+            top: 17vw;
             left:0;
-            border-radius: 0 0 10px 10px;
+            border-radius: 0 0 0.83vw 0.83vw;
             width: 100%;
-            padding: 5px;
+            padding: 0.4vw;
             border: none;
             text-align: center;
         }}
         .navbar a {{
             text-decoration: none;
-            font-size: 15px;
+            font-size: 1.2vw;
             cursor: pointer;
         }}
         .navbar a:hover {{
@@ -95,9 +94,9 @@ st.markdown(f"""
             display: block;
             color: #8da7cd;
             text-align: center;
-            padding: 12px 16px;
+            padding: 0.4vw;
             text-decoration: none;
-            font-size: 18px;
+            font-size: 1.3vw;
             cursor: pointer;
         }}
         .nav-links a:hover {{
@@ -110,26 +109,26 @@ st.markdown(f"""
             color: #303186 !important;
             text-decoration: underline;
         }}
-        h5{{
-        color:black;
-        text-align: justify;
+        h5 {{
+            color:black;
+            text-align: justify;
         }}
-        h3{{
-        color:black;
+        h3 {{
+            color:black;
         }}
         .centered-text {{
-        display: flex;
-        justify-content: center;
+            display: flex;
+            justify-content: center;
         }}
         footer {{
             position: absolute;
-            bottom: -80px;
+            bottom: -6.67vw;
             width:100%;
             background-color: black;
             color: white;
-            font-size: 14px;
+            font-size: 1.17vw;
             text-align: center;
-            line-height: 30px;
+            line-height: 2.5vw;
         }}
     </style>
 """, unsafe_allow_html=True)
